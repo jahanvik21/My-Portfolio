@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahanvi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body bgcolor="#070707">
+
+    <div class="intro">
+        <h1 class="logo-header">
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">J</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">a</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">h</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">a</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">n</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">v</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">i</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">K</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">a</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">t</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">a</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">r</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">i</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">y</span>
+            <span class="intro-logo" style="font-family: 'Senjalara Demo', sans-serif; font-weight: bold; font-style: italic;">a</span>
+        </h1>
+    </div>    
+    
+
+    <nav id="desktop-nav" class="bgcolor">
+        <div class="logo"><img src="./Assets/jk.png"
+            alt="Jahanvi" onclick="location.href='./#profile'">
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Jahanvi</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links" onclick="togglemenu()">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img class="home-pic"
+            src="./Assets/pfp2_circle.png" alt="Jahanvi Katariya">
+        </div>
+        <div class="section__text" class="show">
+            <p class="section__text__p1">Hello there, I'm</p>
+            <h1 class="title">Jahanvi Katariya</h1>
+            <p class="section__text__p2">Graphic Designer  &  3D modeler</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('./Assets/Jahanvi Resume .pdf')"
+                >
+                My Resume
+                </button>
+                <button class="btn btn-color-1"
+                onclick="location.href='./#contact'">
+                Get in touch
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src='./Assets/linkedin.png' alt="My LinkedIn Profile"
+                class="icon" onclick="location.href='www.linkedin.com/in/jahanvi-katariya-732821345'">
+                <img src='./Assets/insta.png' alt="My Instagram Handle"
+                class="icon" onclick="location.href='https://www.instagram.com/jahanvi.katariya/'">
+                </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text">Get To Know</p>
+        <h1 class="title2">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./Assets/pfp.png"
+                alt="Jahanvi Katariya Profile Picture"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Assets/experience.png"
+                        alt="experience icon" class="icon">
+                        <h3 class="about-headings">Experience</h3>
+                        <p><b>1+ years</b><br>Graphic Designer<br>3D Modeler</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Assets/graduation.png"
+                        alt="education icon" class="icon">
+                        <h3 class="about-headings">Education</h3>
+                        <p><b>I Tech</b>
+                        <br>Graphic Designer, Illustrator, UI/UX Designer, and 3D Modeler<br>
+                        CSE '23-28</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I'm a beginner at I Tech Mumbai, working as a Graphic Designer, Illustrator, 
+                        UI/UX Designer, and 3D Modeler. With a strong passion for visual storytelling and 
+                        digital creativity, I specialize in designing compelling graphics, intuitive user interfaces, 
+                        and immersive 3D models. I have hands-on experience with industry-standard tools, 
+                        including Adobe Photoshop, Illustrator, Premiere Pro, After Effects, and 3Ds Max. 
+                        I thrive in collaborative environments and continuously strive to enhance my skills through 
+                        innovative design projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="section__text">Have a look at my</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+                <div class="sk-details-container">
+                    <h2 class="skills-subtitle">Graphic Design</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Adobe Photoshop</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Adobe Illustrator</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Canva</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="skills-subtitle">Video Editing</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Adobe Premiere Pro</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Adobe After Effects</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>           
+                </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <p class="section__text">Explore my</p>
+        <h1 class="title">Work</h1>
+        <div class="work-list">
+            <a href="./Assets/MANDIR 3D.png"><div class="work">
+                <img src="./Assets/MANDIR 3D.png" alt="The Door To Heaven">
+                <div class="layer">
+                    <h3>The Door To Heaven</h3>
+                </div>
+            </div></a>
+            <a href="./Assets/Mumbai.png"><div class="work">
+                <img src="./Assets/Mumbai.png" alt="Amchi Mumbai">
+                <div class="layer">
+                    <h3>Sukoon</h3>
+                </div>
+            </div></a>
+            <a href="./Assets/magizen.png"><div class="work">
+                <img src="./Assets/magizen.png" alt="Leonardo D caprio">
+                <div class="layer">
+                    <h3>Falling - Light</h3>
+                </div>
+            </div></a>
+            
+        </div>
+
+            </div>
+        </div>
+        <a href="projects.html">
+        <button class="btn btn-color-2">
+                See more
+            </button></a>
+    </section>
+
+    <section id="contact">
+        <p class="section__text" style="padding-bottom: 0.3rem;">Get In Touch</p>
+        <h1 class="title" style="font-weight: 600;">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <a href="mailto:23110059@iitgn.ac.in">
+                    <img src="./Assets/email.png" alt="Email icon"
+                    class="icon contact-icon">
+                    <p>katariyajahanvi2@gmail.com</p>
+                </a>
+            </div>
+            <div class="contact-info-container">
+            <a href="www.linkedin.com/in/jahanvi-katariya-732821345">
+                <img src="./Assets/linkedin.png" alt="LinkedIn" 
+                class="icon contact-icon">
+                <p>Connect with me on LinkedIn</p>
+            </a>
+            </div>
+            <div class="contact-info-container">
+            <a href="https://www.instagram.com/jahanvi.katariya/">
+                <img src='./Assets/insta.png' alt="My Instagram Handle" 
+                class="icon contact-icon">
+                <p>DM me on Instagram</p>
+            </a>
+            </div>
+        </div>
+        <div class="logo"><img src="./Assets/Jahanvi.png"
+            alt="Jahanvi" onclick="location.href='./#profile'">
+        </div> 
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container2">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav><br>
+        <p>Copyright &#169; 2025 Jahanvi Katariya. All Rights Resereved.</p>
+    </footer>
+
+   <script defer src="script.js"></script> 
+</body>
+</html>
